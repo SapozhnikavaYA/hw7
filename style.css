@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Futura PT";
+  src: url("./fonts/Futura/FuturaPTMedium.otf") format("opentype");
+}
+
+.page {
+  width: 100%;
+  height: 714px;
+  background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(255, 51, 51, 0.5) 0%,
+      rgba(255, 51, 51, 0) 100%
+    ),
+    hsl(0, 0%, 0%);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 714px;
+  width: 1366px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.title {
+  color: #fff;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  text-transform: capitalize;
+  width: 596px;
+  height: 100px;
+  margin: 0;
+}
+.description {
+  color: #fff;
+  text-align: center;
+  font-family: "Futura PT", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  height: 420px;
+  height: 58px;
+  margin: 20px 0 0;
+}
+.central {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.square {
+  width: 319px;
+  height: 282px;
+  border-radius: 8px;
+  border: 1px solid #2f2e2e;
+  background: linear-gradient(
+      131deg,
+      rgba(255, 255, 255, 0.3) -19.06%,
+      rgba(255, 255, 255, 0) 31.37%
+    ),
+    #000;
+  margin: 60px 0 0;
+}
+.counter {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  text-align: center;
+}
+.square__romb {
+  width: 60.811px;
+  height: 60.811px;
+  flex-shrink: 0;
+  background: linear-gradient(
+    176deg,
+    #f33 -36.48%,
+    rgba(255, 51, 51, 0) 95.83%
+  );
+  transform: rotate(45deg);
+  position: relative;
+  top: 60px;
+  left: 127px;
+}
+.page-second {
+  width: 100%;
+  height: 714px;
+  background: #000;
+}
+
+.container__slogan {
+  color: #fff;
+  text-align: center;
+  font-family: "Futura PT", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  margin: 0;
+  padding: 100px 115px;
+  background: url(./img/ellipse.png) no-repeat;
+}
+.red-underline {
+  text-decoration: underline 0.5px solid #f33;
+}
