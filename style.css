@@ -5,7 +5,6 @@
 
 .page {
   width: 100%;
-  height: 714px;
   background: radial-gradient(
       50% 50% at 50% 50%,
       rgba(255, 51, 51, 0.5) 0%,
@@ -16,7 +15,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 714px;
   width: 1366px;
   margin: 0 auto;
   display: flex;
@@ -52,6 +50,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin-bottom: 199px;
 }
 .square {
   width: 319px;
@@ -109,4 +108,38 @@
 }
 .red-underline {
   text-decoration: underline 0.5px solid #f33;
+}
+@media (max-width: 1400px) {
+  .container {
+    width: 95%;
+  }
+  .central {
+    flex-direction: column;
+    align-items: center;
+  }
+  .square {
+    width: 596px;
+  }
+  .square__romb {
+    left: 267px;
+  }
+}
+@media (max-width: 630px) {
+  .square {
+    width: 95%;
+  }
+  .title {
+    width: 100%;
+    font-size: 50px;
+    height: auto;
+  }
+  .square__romb {
+    left: 44%;
+  }
+  .container__slogan {
+    font-size: 25px;
+  }
+  .page-second {
+    height: 600px;
+  }
 }
